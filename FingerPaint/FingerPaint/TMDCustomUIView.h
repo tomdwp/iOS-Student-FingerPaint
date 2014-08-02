@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TMDCustomUIViewDelegate.h"
+#import "TMDViewController.h"
+#import "TMDFreeFormLine.h"
+
 
 @interface TMDCustomUIView : UIView
+
+//@property (assign) id<TMDCustomUIViewDelegate> delegate;
+//   don't know why this doesn't work
+@property (assign) id delegate;
+
 
 @end

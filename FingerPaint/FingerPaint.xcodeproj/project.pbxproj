@@ -22,6 +22,7 @@
 		6325808A198C64AD004E88F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63258088198C64AD004E88F1 /* InfoPlist.strings */; };
 		6325808C198C64AD004E88F1 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325808B198C64AD004E88F1 /* FingerPaintTests.m */; };
 		63258097198C6580004E88F1 /* TMDCustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258096198C6580004E88F1 /* TMDCustomUIView.m */; };
+		6325809B198C90D2004E88F1 /* TMDFreeFormLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325809A198C90D2004E88F1 /* TMDFreeFormLine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		6325808B198C64AD004E88F1 /* FingerPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintTests.m; sourceTree = "<group>"; };
 		63258095198C6580004E88F1 /* TMDCustomUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDCustomUIView.h; sourceTree = "<group>"; };
 		63258096198C6580004E88F1 /* TMDCustomUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDCustomUIView.m; sourceTree = "<group>"; };
+		63258098198C8EAA004E88F1 /* TMDCustomUIViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDCustomUIViewDelegate.h; sourceTree = "<group>"; };
+		63258099198C90D2004E88F1 /* TMDFreeFormLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDFreeFormLine.h; sourceTree = "<group>"; };
+		6325809A198C90D2004E88F1 /* TMDFreeFormLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDFreeFormLine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,12 +120,15 @@
 			isa = PBXGroup;
 			children = (
 				6325806F198C64AD004E88F1 /* TMDAppDelegate.h */,
+				63258070198C64AD004E88F1 /* TMDAppDelegate.m */,
 				63258095198C6580004E88F1 /* TMDCustomUIView.h */,
 				63258096198C6580004E88F1 /* TMDCustomUIView.m */,
-				63258070198C64AD004E88F1 /* TMDAppDelegate.m */,
 				63258072198C64AD004E88F1 /* Main.storyboard */,
 				63258075198C64AD004E88F1 /* TMDViewController.h */,
 				63258076198C64AD004E88F1 /* TMDViewController.m */,
+				63258098198C8EAA004E88F1 /* TMDCustomUIViewDelegate.h */,
+				63258099198C90D2004E88F1 /* TMDFreeFormLine.h */,
+				6325809A198C90D2004E88F1 /* TMDFreeFormLine.m */,
 				63258078198C64AD004E88F1 /* Images.xcassets */,
 				63258067198C64AD004E88F1 /* Supporting Files */,
 			);
@@ -258,6 +265,7 @@
 				63258071198C64AD004E88F1 /* TMDAppDelegate.m in Sources */,
 				63258097198C6580004E88F1 /* TMDCustomUIView.m in Sources */,
 				6325806D198C64AD004E88F1 /* main.m in Sources */,
+				6325809B198C90D2004E88F1 /* TMDFreeFormLine.m in Sources */,
 				63258077198C64AD004E88F1 /* TMDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
