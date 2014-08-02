@@ -21,6 +21,7 @@
 		63258082198C64AD004E88F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63258064198C64AD004E88F1 /* UIKit.framework */; };
 		6325808A198C64AD004E88F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63258088198C64AD004E88F1 /* InfoPlist.strings */; };
 		6325808C198C64AD004E88F1 /* FingerPaintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6325808B198C64AD004E88F1 /* FingerPaintTests.m */; };
+		63258097198C6580004E88F1 /* TMDCustomUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63258096198C6580004E88F1 /* TMDCustomUIView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		63258087198C64AD004E88F1 /* FingerPaintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FingerPaintTests-Info.plist"; sourceTree = "<group>"; };
 		63258089198C64AD004E88F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6325808B198C64AD004E88F1 /* FingerPaintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintTests.m; sourceTree = "<group>"; };
+		63258095198C6580004E88F1 /* TMDCustomUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDCustomUIView.h; sourceTree = "<group>"; };
+		63258096198C6580004E88F1 /* TMDCustomUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDCustomUIView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				6325806F198C64AD004E88F1 /* TMDAppDelegate.h */,
+				63258095198C6580004E88F1 /* TMDCustomUIView.h */,
+				63258096198C6580004E88F1 /* TMDCustomUIView.m */,
 				63258070198C64AD004E88F1 /* TMDAppDelegate.m */,
 				63258072198C64AD004E88F1 /* Main.storyboard */,
 				63258075198C64AD004E88F1 /* TMDViewController.h */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63258071198C64AD004E88F1 /* TMDAppDelegate.m in Sources */,
+				63258097198C6580004E88F1 /* TMDCustomUIView.m in Sources */,
 				6325806D198C64AD004E88F1 /* main.m in Sources */,
 				63258077198C64AD004E88F1 /* TMDViewController.m in Sources */,
 			);
